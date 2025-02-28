@@ -1,0 +1,12 @@
+.sidebar-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: fit-content;
+}
+
+@media (max-width: 720px) {
+  .sidebar-list {
+    flex-direction: row;
+  }
+}

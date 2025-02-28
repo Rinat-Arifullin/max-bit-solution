@@ -1,0 +1,16 @@
+.sidebar-item {
+  display: block;
+  border-radius: 5px;
+  border: 1px solid #656565;
+  padding: 10px;
+  transition: background-color 0.3s;
+  text-decoration: none;
+  color: black;
+}
+
+.sidebar-item.active {
+  background-color: #b6bfef;
+}
+
+
+

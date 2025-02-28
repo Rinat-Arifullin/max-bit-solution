@@ -1,0 +1,10 @@
+.default-layout {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 720px) {
+  .default-layout {
+    flex-direction: column;
+  }
+}

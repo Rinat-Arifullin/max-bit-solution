@@ -1,0 +1,24 @@
+.drink {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 16px 32px;
+  gap: 40px;
+  .image-wrapper {
+    img {
+      width: 324px;
+      height: auto;
+    }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .drink {
+    flex-direction: column-reverse;
+    gap: 20px;
+    align-items: center;
+  }
+}
+
+
